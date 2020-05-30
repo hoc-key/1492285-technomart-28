@@ -38,7 +38,7 @@
                         </p>
                     </li>
                     <li>
-                        <p>+7 (812) 555-05-55</p>
+                        <a href="tel:+78125550555 ">+7 (812) 555-05-55</a>
                     </li>
                     <li>
                         <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
@@ -56,7 +56,7 @@
             </div>
             <div class="header_bottom">
                 <nav>
-                    <ul>
+                    <ul class="flex">
                         <li><a href="_blank.html">Главная</a></li>
                         <li><a href="_blank.html">Компания</a></li>
                         <li><a href="catalog.html" target="_blank">Каталог</a></li>
@@ -88,9 +88,6 @@
         <div>
             <ul>
                 <li>
-                    <a href="_blank.html">Филтьр:</a>
-                </li>
-                <li>
                     <a href="_blank.html">Сортировка:</a>
                 </li>
                 <li>
@@ -104,6 +101,68 @@
                 </li>
             </ul>
         </div>
+    <section>
+        <h2>Фильтр:</h2>
+        <form action="http://echo.htmlacademy.ru" method="get">
+            <fieldset>
+                <legend for="range">Цена:</legend>
+                <ul>
+                    <li>
+                        <input type="range" name="range"
+                        value="price" id="filter-price">
+                        <br>
+                        <label for="filter-price">0 - 30000</label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Производители</legend>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="bosch"
+                        value="bosch" id="filter-bosch" checked>
+                        <label for="filter-bosch">BOSCH</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="interscol"
+                        value="interscol" id="filter-interscol">
+                        <label for="filter-interscol">ИНТЕРСКОЛ</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="makita"
+                        value="makita" id="filter-makita" checked>
+                        <label for="filter-makita">MAKITA</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="dewalt"
+                        value="dewalt" id="filter-dewalt">
+                        <label for="filter-dewalt">DEWALT</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="hitachi"
+                        value="hitachi" id="filter-hitachi">
+                        <label for="filter-hitachi">HITACHI</label>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Питание:</legend>
+                <ul>
+                    <li>
+                        <input type="radio" name="acum"
+                        value="acum" id="filter-acum" checked>
+                        <label for="filter-acum">АККУМУЛЯТОРНЫЕ</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="site" name="site"
+                        value="site" id="filter-site">
+                        <label for="filter-site">СЕТЕВЫЕ</label>
+                    </li>
+                </ul>
+            </fieldset>
+            <button type="submit">Показать</button>
+        </form>
+    </section> 
         <div>
             <ul>
                 <li>
@@ -288,7 +347,7 @@
             <ul>
                 <li>
                     г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
-                    +7 (812) 555-05-55 
+                    <a href="tel:+78125550555 ">+7 (812) 555-05-55</a>
                 <li>
                     <a href="#">Материалы</a>
                 </li>

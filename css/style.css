@@ -1,0 +1,21 @@
+body {
+padding: 80px 100px;
+font-family: sans-serif;
+}
+
+.header_bottom a {
+ padding: 20px 0;
+ width: 25%;
+ background-color: #32425c;
+ color: white;
+ text-align: center;
+ text-decoration: none;
+}
+
+.header_bottom a:hover {
+    background-color: #1D2739;
+}
+
+.flex {
+    display: flex;
+}
