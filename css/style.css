@@ -1,21 +1,118 @@
 body {
-padding: 80px 100px;
-font-family: sans-serif;
+    min-width: 1200px;
+    margin: 0;
+    padding: 0;
+    font-family: "Cuprum", "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--black);
+    text-align: left;
+}
+/*Основное меню*/
+.main-header-nav .container {
+    padding: 0 0 60px 0;
 }
 
-.header_bottom a {
- padding: 20px 0;
- width: 25%;
- background-color: #32425c;
- color: white;
- text-align: center;
- text-decoration: none;
-}
-
-.header_bottom a:hover {
-    background-color: #1D2739;
-}
-
-.flex {
+.site-navigation {
+    margin: 0;
+    padding: 0 25px 0 30px;
+    list-style: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #32425c;
+    box-shadow: inset 0px -5px 0px #293449;
+}
+
+.nav-link {
+    display: block;
+    padding: 18px 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #293449;
+}
+
+.nav-link:active {
+    background-color: #1d2739;
+    opacity: 0,5;
+}
+/*Большие кнопки с услугами компании*/
+.site-group-first {
+    background-color: #FFBF47;
+    width: 300px;
+    height: 123px;
+    color: white;
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.site-group-second {
+    width: 300px;
+    height: 123px;
+    background-color: #3BBCE3;
+    color: white;
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.site-group-third {
+    width: 300px;
+    height: 123px;
+    background-color: #DC91D8;
+    color: white;
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.site-group-fourth {
+    width: 300px;
+    height: 123px;
+    background-color: #8ED78F;
+    color: white;
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.site-group-fifth {
+    width: 300px;
+    height: 123px;
+    background-color: #FFC047;
+    color: white;
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+.site-group-link {
+    text-transform: uppercase;
+    background-color: white;
+    width: 135px;
+    height: 38px;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    font-family: Cuprum;
+}
+.site-group-1 {
+    width: 114px;
+    height: 30px;
+    padding-top: 20px;
+    padding-left: 23px;
 }
