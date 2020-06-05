@@ -45,6 +45,15 @@ body {
     color: var(--black);
     text-align: left;
 }
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
 /*Основное меню index*/
 .main-header-nav .container {
     padding: 0 0 60px 0;
@@ -331,3 +340,86 @@ body {
     border: 20px solid white;
     border-left-color: #ee3643;
 }
+
+/*footer_top index & catalog*/
+.footer_top {
+    background-color: #32425C;
+    color: white;
+    display: flex;
+}
+
+/*footer_middle index & catalog*/
+.footer_middle {
+    background-color: #32425C;
+    color: white;
+    display: flex;
+}
+
+/*footer_bottom index & catalog*/
+.footer_bottom {
+    background-color: #293449;
+    color: white;
+}
+
+.back-connection {
+    margin-left: 771px;
+}
+
+.design-html {
+    margin-left: 959px;
+}
+
+.site-messengers {
+    display: flex;
+}
+
+.site-messenger {
+    margin-left: 519px;
+}
+
+.compani-technomart-bottom {
+    margin-left: 131px;
+}
+
+.link-messenger {
+    margin: 5px;
+}
+
+/*Желтые ссылки для FOOTER*/
+.a-footer-yellow {
+    color: #FFD180;
+}
+
+/*Белo-серые ссылки для FOOTER*/
+.a-footer-white-grey {
+    color: #F1F5F7;
+}
+
+/*Доставка и Сервисы index*/
+.site-info-about-delivery {
+    background-color: #F1F5F7;
+    display: flex;
+}
+
+/*Компании index*/
+.companies {
+    width: 700px;
+    margin: 20px auto;
+}
+
+.compani-choice {
+    position: relative;
+    display: inline-block;
+    width: 218px;
+    height: 145px;
+
+    margin-right: 20px;
+    margin-bottom: 18px;
+    line-height: 20px;
+
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #EAEAEA;
+    max-width: 100%;
+}
+
