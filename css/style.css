@@ -406,12 +406,15 @@ li {
     width: 700px;
     margin: 20px auto;
 }
+  
+.companies .row-1 {
+    margin-left: -20px;
+}
 
 .compani-choice {
     position: relative;
     display: inline-block;
     width: 218px;
-    height: 145px;
 
     margin-right: 20px;
     margin-bottom: 18px;
@@ -419,7 +422,127 @@ li {
 
     font-weight: bold;
     text-align: center;
-    border: 1px solid #EAEAEA;
+    border: 1px solid #ccc;
+}
+
+.companies {
+    font-size: 0;
+}
+
+.compani-choice {
+    font-size: 16px;
+}
+
+.compani-choice .compani-actions {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 218px;
+    height: 88px;
+    padding: 40px 0;
+    
+    background-color: rgba(255,255,255,0.9);
+    z-index: 10;
+}
+   
+.compani-choice:hover {
+    display: block;
+}
+      
+.compani-choice .image-compani {
+    width: 218px;
+    height: 168px;
+}
+      
+.catalog-item .image-compani img {
     max-width: 100%;
 }
 
+/*Цвет окна бежевый 2 index*/
+.bg-bej2 {
+    background-color: #F9F5F0;
+
+    width: 960px;
+    height: 93px;
+
+    margin-left: 700px;
+    position: relative;
+    display: flex;
+}
+
+.popular-items2 {
+    padding-top: 8px;
+    padding-left: 20px;
+
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.link-popular-items2{
+    background-color: #EE3643;
+    color: white;
+
+    margin-top: 30px;
+    margin-left: 215px;
+    margin-bottom: 30px;
+
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+
+    border: 1px solid #EE3643;
+
+    padding-left: 18px;
+    padding-top: 6px;
+    padding-right: 18px;
+}
+
+/*Цвет окна бежевый 1*/
+.bg-bej1 {
+    background-color: #F9F5F0;
+
+    width: 960px;
+    height: 93px;
+
+    margin-left: 700px;
+    position: relative;
+    display: flex;
+}
+
+.popular-items1 {
+    padding-top: 8px;
+    padding-left: 20px;
+
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 28px;
+}
+
+.link-popular-items1 {
+    background-color: #EE3643;
+    color: white;
+
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+
+    font-family: Cuprum;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+
+    border: 1px solid #EE3643;
+
+    padding-left: 18px;
+    padding-top: 6px;
+    padding-right: 18px;
+}
