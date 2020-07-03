@@ -192,6 +192,11 @@ ul {
   padding-right: 16px;
 }
 
+.site-group-link:hover {
+  background-color: var(--basic-red);
+  mix-blend-mode: normal;
+}
+
 .site-group-1 {
   width: 114px;
   height: 30px;
@@ -863,6 +868,10 @@ p.footer-logo {
   padding-right: 18px;
 }
 
+.link-popular-items2:hover {
+  background-color: var(--dark-red);
+}
+
 /*Цвет окна бежевый 1*/
 .bg-bej1 {
   background-color: #F9F5F0;
@@ -908,6 +917,10 @@ p.footer-logo {
   padding-right: 18px;
 }
 
+.link-popular-items1:hover {
+  background-color: var(--dark-red);
+}
+
 /*Картинка с перфоратором index*/
 .site-fon-perforator-main-class {
   width: 620px;
@@ -915,7 +928,7 @@ p.footer-logo {
   margin-bottom: 59px;
   height: 270px;
 
-  background-image: url(Object.jpg);
+  background-image: url(object.jpg);
 
   margin-top: -290px;
   margin-left: 0;
@@ -969,6 +982,10 @@ p.footer-logo {
   margin-top: 120px;
 }
 
+.site-link-perforator:hover {
+  background-color: var(--dark-red);
+}
+
 /*Кнопки с кредитом,доставкой,гарантией index*/
 /*.site-button-all {
   
@@ -1014,6 +1031,7 @@ p.footer-logo {
 
 .header-top {
   width: 100%;
+  position: relative;
   min-width: 940px;;
   height: 42px;
 
@@ -1038,7 +1056,6 @@ p.footer-logo {
 
   background-color: #ee3643;
   box-shadow: inset 0 -5px 0 0 rgba(0, 0, 0, 0.24);
-  margin-left: 940px;
 }
 
 .search-ul {
@@ -1093,8 +1110,14 @@ p.footer-logo {
   background-color: #63A63E;
 }
 
+.search-li-3:hover {
+  background-color: var(--button-hovergreen);
+}
+
 .input {
   background-color: #293449;
+
+  border: none;
 }
 
 /*Пара слов о перфарторах*/
@@ -1129,6 +1152,10 @@ p.footer-logo {
 
   background-color: var(--basic-red);
   margin-left: 640px;
+}
+
+.button-red:hover {
+  background-color: var(--dark-red);
 }
 
 .button-red-text {
@@ -1191,6 +1218,10 @@ p.footer-logo {
 
   background-color: var(--basic-red);  
   margin-right: 640px;
+}
+
+.more-information-p:hover {
+  background-color: var(--dark-red);
 }
 
 .tree-stripes-ul {
@@ -1414,6 +1445,10 @@ p.footer-logo {
   color: var(--black);
 }
 
+.ravshan:hover {
+  color: var(--basic-red);
+}
+
 .orders-profile {
   color: #32425C;
 }
@@ -1477,9 +1512,9 @@ margin-left: 60px;
 }
 
 .main-top-a:hover {
-  text-decoration: underline;
-
-  color: var(--basic-red);
+  color: var(--black);
+  
+  border-bottom: 1px solid var(--basic-red);
 }
 
 .icons-main-top {
@@ -1587,8 +1622,16 @@ margin-left: 60px;
   color: var(--basic-red);
 }
 
+.by-price-a:hover {
+  color: var(--black);
+
+  border-bottom: 1px solid var(--basic-red);
+}
+
 .by-type {
   margin-left: 70px;
+
+  border-bottom: 1px dashed var(--basic-red);
 }
 
 .by-type-a {
@@ -1598,8 +1641,14 @@ margin-left: 60px;
   opacity: 0.3;
 }
 
+.by-type:hover {
+  border-bottom: 1px solid var(--basic-red);
+}
+
 .by-functionality {
   margin-left: 45px;
+
+  border-bottom: 1px dashed var(--basic-red);
 }
 
 .by-functionality-a {
@@ -1607,6 +1656,10 @@ margin-left: 60px;
 
   mix-blend-mode: normal;
   opacity: 0.3;
+}
+
+.by-functionality:hover {
+  border-bottom: 1px solid var(--basic-red);
 }
 
 .up-and-down-shape {
@@ -1624,3 +1677,12 @@ margin-left: 60px;
 }
 
 /*Фильтр - Цена catalog*/
+
+/*Кнопка показать catalog*/
+.position-button-submit {
+
+}
+
+.button-submit {
+  
+}
